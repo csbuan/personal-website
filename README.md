@@ -12,3 +12,23 @@ Steps I made for this project:
 3. Go to unicons and copy the URL there. Also go to Google fonts website and pick your desired font style. For example, in this project I chose Poppins (Regular 400, Medium 500, and SemiBold 600) all at once. Now, choose the import and only copy this URL do not include the <style></style> 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 Copy that @import to your CSS under GOOGLE FONTS 
+4. Work on the Variable CSS (:root)
+5. Reset HTML
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Colors: 
+ hsl(288.9,12.7%,41.8%)
+ hsl(312.7,17.8%,63.7%)
