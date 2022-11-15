@@ -1,5 +1,5 @@
 # personal-website
-Steps I made for this project: 
+Steps: 
 1. Project setup - set up all the assets you need including the images, javascript file, css file, html file, pdf file for my resume. Store everything in the folder named "assets" and make a new folder for each: css, js, and img. For the html, keep it outside of asset folder. 
 2. Set up your file - includes linking your css and js to your html, make an outline as comment like below: 
 <!-- ============================= HEADER ============================= -->

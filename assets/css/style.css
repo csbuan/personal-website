@@ -1,5 +1,190 @@
-/*========================= GOOGLE FONTS =========================*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #edede9;
+}
+
+header {
+    background-color: #6d6875;
+}
+
+/* Navigation Bar */
+/* Logo and Nav Items */
+div.container {
+    display: flex;
+    align-items: center;
+}
+
+.navContainer {
+    display: flex; /* To make it aligned with the navbar list items */
+    margin: 5px;
+    padding: 10px 20px;
+    justify-content: space-around;
+    align-items: center;    /* This made the Sign in button to center horizontally */
+}
+
+.navContainer h1 {  /* For the font properties of the text: Goodreads */
+    font-size: 32px;
+    margin: 0px 10px;
+    font-weight: 600;
+}
+
+.navContainer a {   /* For the link properties of the text: Goodreads*/
+    text-decoration: none;
+    color: #edede9;
+}
+
+.navContainer span {
+    color: #e5989b;
+}
+
+.navContainer span:hover {
+    color: #b5838d;
+    transition: 0.5s;
+}
+
+.navContainer a:hover {
+    color: #b5838d;
+    transition: 0.5s;
+}
+.navContainer li:hover {
+    cursor: pointer;
+    color: #b5838d;
+    transition: 0.5s;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-position: under;
+}
+
+.navBar { 
+    padding: 5px;
+    margin: 0px 20px 0px 130px;
+}
+
+.navBar ul {    /* For the position/spacing between the navbar list items as a whole - inline or block */
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar-listItem {    /* For the font properties of nav list items */
+    padding: 10px 20px;
+    color: #edede9;
+}
+
+/* Contact Me Button */ 
+.contact {
+    margin: 10px;
+}
+span.contactMe {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #6d6875;
+    font-weight: 600;
+    border: 1px solid hsla(0,0%,100%,0.2);
+    padding: 6px 25px 6px 25px;
+    border-radius: 16px;
+    background-color: #edede9;
+}
+
+span.contactMe:hover { 
+    cursor: pointer;
+    color: #edede9;
+    background-color: hsla(0,0%,100%,0.2);
+    font-weight: 400;
+    transition: color 0.5s ease-in;
+    transition: background-color 0.5s ease-in 0.5s;
+    transition: font-weight 0.5s ease-out;
+    transform: translateY(-1.5px);
+}
+
+/* Search Bar */
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    outline: none;
+    /* margin: 10px 10px 10px 50px; */
+    padding: 5px;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    outline: none;
+    padding: 2px 8px;
+    border-radius: 15px;
+    background-color: #edede9;
+    border: 1px solid #6d6875;
+    color: #6d6875;
+    font-weight: 400;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*========================= VARIABLE CSS =========================*/
 :root {
