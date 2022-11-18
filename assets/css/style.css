@@ -16,7 +16,7 @@ header {
     background-color: #6d6875;
 }
 
-/* Navigation Bar */
+/* ========== NAVIGATION BAR ========== */
 /* Logo and Nav Items */
 div.container {
     display: flex;
@@ -85,26 +85,29 @@ div.container {
 .contact {
     margin: 10px;
 }
+
 span.contactMe {
     display: flex;
     align-items: center;
     height: 100%;
-    color: #6d6875;
-    font-weight: 600;
-    border: 1px solid hsla(0,0%,100%,0.2);
+    font-weight: 400;
+    color: #edede9;
+    background-color: hsla(0,0%,100%,0.2);
     padding: 6px 25px 6px 25px;
     border-radius: 16px;
-    background-color: #edede9;
+    position: relative;
+    left: 150px;
 }
 
 span.contactMe:hover { 
     cursor: pointer;
-    color: #edede9;
-    background-color: hsla(0,0%,100%,0.2);
-    font-weight: 400;
+    color: #6d6875;
+    border: 1px solid hsla(0,0%,100%,0.2);
+    background-color: #edede9;
+    font-weight: 600;
     transition: color 0.5s ease-in;
     transition: background-color 0.5s ease-in 0.5s;
-    transition: font-weight 0.5s ease-out;
+    transition: font-weight 0.1s ease-out;
     transform: translateY(-1.5px);
 }
 
@@ -113,10 +116,12 @@ span.contactMe:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 150px;
     outline: none;
     /* margin: 10px 10px 10px 50px; */
     padding: 5px;
+    position: relative;
+    left: 20px;
 }
 
 input {
@@ -132,6 +137,16 @@ input {
     color: #6d6875;
     font-weight: 400;
     width: 100%;
+}
+
+/* ========== Landing Page ========== */
+.landingPage {
+    color: #6d6875;
+}
+
+.shadowName {
+    color: #b5838d;
+    font-size: 100px;
 }
 
 
