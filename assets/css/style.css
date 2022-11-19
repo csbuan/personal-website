@@ -44,6 +44,7 @@ div.container {
 
 .navContainer span {
     color: #e5989b;
+    font-weight: 900;
 }
 
 .navContainer span:hover {
@@ -140,15 +141,48 @@ input {
 }
 
 /* ========== Landing Page ========== */
+/* Introduction */
+.introduction {
+    position: relative;
+    left: 30px;
+}
 .landingPage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     color: #6d6875;
 }
 
 .shadowName {
-    color: #b5838d;
+    color: #e5989b;
     font-size: 100px;
 }
 
+main {
+    margin: 0px 30px;
+    /* border: 1px solid #b5838d; */
+}
+
+span.my-name {
+    color: #e5989b;
+}
+
+/* Side Bar */
+.side-bar {
+    position: relative;
+    left: 10px;
+}
+.socmed-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.sidebar-line {
+    height: 200px;
+    width: 30px;
+    border-radius: 2px;
+}
 
 
 

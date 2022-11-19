@@ -16,7 +16,9 @@ Copy that @import to your CSS under GOOGLE FONTS
 5. Reset HTML
 
 
-
+Copyrights:
+Behance logo:
+<a target="_blank" href="https://icons8.com/icon/16280/behance">Behance</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 
 
